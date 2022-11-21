@@ -1,4 +1,10 @@
-﻿[dir="rtl"] ::deep .rtlspecific {
+::deep .rtlspecific {
+    color: gree;
+    border: 1px dotted green;
+}
+
+
+[dir="rtl"] * ::deep .rtlspecific {
     color: red;
     border: 1px dotted red;
 }
